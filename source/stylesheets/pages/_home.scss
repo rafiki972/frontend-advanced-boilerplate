@@ -66,3 +66,24 @@
   }
 }
 
+.newsletter {
+  text-align: center;
+}
+
+.footer {
+  background: dimgrey;
+  padding-top: 40px;
+  font-size: 35px;
+  a {
+    color: antiquewhite;
+  }
+
+  p {
+    text-align: justify;
+    color: antiquewhite;
+    font-size: large;
+    padding: 12px;
+    margin-left: 200px;
+  }
+}
+
