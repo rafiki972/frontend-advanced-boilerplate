@@ -1,0 +1,68 @@
+// -----couleurs-----
+
+// $ma_variable: ma_couleur;
+
+// ------------------
+
+.banner {
+  background-image:linear-gradient(to right, rgba(255,0,0,0), rgba(255,255,255,0.5)), url(http://wowslider.com/sliders/demo-5/data/images/saarschleife.jpg);
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+
+.wrapper {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  h1 {
+    font-size: 95px;
+    text-transform: capitalize;
+    font-weight: 200;
+    color: cornsilk;
+  }
+  p {
+    padding-bottom: 20px;
+    font-weight: 500;
+    font-size: 22px;
+    color: cornsilk;
+  }
+  a {
+    font-size:35px;
+    text-transform:uppercase;
+    letter-spacing:5px;
+    color:white;
+    background-color:rgba(255,255,255,0.3);
+    border:3px solid white;
+    padding: 5px 10px;
+    border-radius:3px;
+    &:hover {
+      border:6px solid white;
+      text-decoration:none;
+    }
+  }
+}
+
+
+.texte-center {
+  padding-top: 50px;
+  text-align: center;
+}
+
+.features {
+  padding:30px;
+}
+.feature {
+  img {
+    width:65px;
+    height:65px;
+    display:block;
+    margin:0 auto;
+  }
+  h4 {
+    text-align:center;
+  }
+  p {
+    text-align: justify;
+  }
+}
+
