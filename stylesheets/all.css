@@ -9128,30 +9128,36 @@ button.close {
 .fa-meanpath:before {
   content: ""; }
 
-/* line 1, /Users/raphaelbiondi/code/rafiki972/fullstack-challenges/04-Front-End/03-Frontend-Advanced/01-Content-migration/frontend-advanced-boilerplate/source/stylesheets/layout/_navbar.css.scss */
+/* line 1, /Users/raphaelbiondi/code/rafiki972/frontend-advanced-boilerplate/source/stylesheets/layout/_navbar.css.scss */
 .navbar-wagon {
   box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.07), 0 1px 0 0 rgba(0, 0, 0, 0.03);
-  background: white; }
-  /* line 4, /Users/raphaelbiondi/code/rafiki972/fullstack-challenges/04-Front-End/03-Frontend-Advanced/01-Content-migration/frontend-advanced-boilerplate/source/stylesheets/layout/_navbar.css.scss */
+  background: white;
+  transition: all 0.3s ease; }
+  /* line 5, /Users/raphaelbiondi/code/rafiki972/frontend-advanced-boilerplate/source/stylesheets/layout/_navbar.css.scss */
+  .navbar-wagon-fixed {
+    position: fixed;
+    z-index: 1;
+    width: 100%; }
+  /* line 11, /Users/raphaelbiondi/code/rafiki972/frontend-advanced-boilerplate/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon-logo {
     width: 50px; }
-  /* line 7, /Users/raphaelbiondi/code/rafiki972/fullstack-challenges/04-Front-End/03-Frontend-Advanced/01-Content-migration/frontend-advanced-boilerplate/source/stylesheets/layout/_navbar.css.scss */
+  /* line 14, /Users/raphaelbiondi/code/rafiki972/frontend-advanced-boilerplate/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon-container {
     display: flex;
     height: 70px;
     align-items: center; }
-  /* line 12, /Users/raphaelbiondi/code/rafiki972/fullstack-challenges/04-Front-End/03-Frontend-Advanced/01-Content-migration/frontend-advanced-boilerplate/source/stylesheets/layout/_navbar.css.scss */
+  /* line 19, /Users/raphaelbiondi/code/rafiki972/frontend-advanced-boilerplate/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon-item {
     flex: 0 1 auto;
     padding: 0 10px; }
-  /* line 16, /Users/raphaelbiondi/code/rafiki972/fullstack-challenges/04-Front-End/03-Frontend-Advanced/01-Content-migration/frontend-advanced-boilerplate/source/stylesheets/layout/_navbar.css.scss */
+  /* line 23, /Users/raphaelbiondi/code/rafiki972/frontend-advanced-boilerplate/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon-search {
     flex: 1 1 auto;
     display: flex;
     justify-content: flex-end;
     padding: 0 10px;
     position: relative; }
-    /* line 22, /Users/raphaelbiondi/code/rafiki972/fullstack-challenges/04-Front-End/03-Frontend-Advanced/01-Content-migration/frontend-advanced-boilerplate/source/stylesheets/layout/_navbar.css.scss */
+    /* line 29, /Users/raphaelbiondi/code/rafiki972/frontend-advanced-boilerplate/source/stylesheets/layout/_navbar.css.scss */
     .navbar-wagon-search-btn {
       line-height: 40px;
       color: #E6E6E6;
@@ -9161,7 +9167,7 @@ button.close {
       right: 10px;
       top: -2px;
       z-index: 1; }
-    /* line 32, /Users/raphaelbiondi/code/rafiki972/fullstack-challenges/04-Front-End/03-Frontend-Advanced/01-Content-migration/frontend-advanced-boilerplate/source/stylesheets/layout/_navbar.css.scss */
+    /* line 39, /Users/raphaelbiondi/code/rafiki972/frontend-advanced-boilerplate/source/stylesheets/layout/_navbar.css.scss */
     .navbar-wagon-search-input {
       flex: 0 1 300px;
       transition: all 0.15s ease;
@@ -9173,18 +9179,18 @@ button.close {
       padding: 0 10px;
       font-size: 14px;
       outline: none; }
-    /* line 44, /Users/raphaelbiondi/code/rafiki972/fullstack-challenges/04-Front-End/03-Frontend-Advanced/01-Content-migration/frontend-advanced-boilerplate/source/stylesheets/layout/_navbar.css.scss */
+    /* line 51, /Users/raphaelbiondi/code/rafiki972/frontend-advanced-boilerplate/source/stylesheets/layout/_navbar.css.scss */
     .navbar-wagon-search-input:focus {
       border: 1px solid #CCCCCC; }
-  /* line 48, /Users/raphaelbiondi/code/rafiki972/fullstack-challenges/04-Front-End/03-Frontend-Advanced/01-Content-migration/frontend-advanced-boilerplate/source/stylesheets/layout/_navbar.css.scss */
+  /* line 55, /Users/raphaelbiondi/code/rafiki972/frontend-advanced-boilerplate/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon-link {
     color: #616668;
     font-size: 14px; }
-    /* line 51, /Users/raphaelbiondi/code/rafiki972/fullstack-challenges/04-Front-End/03-Frontend-Advanced/01-Content-migration/frontend-advanced-boilerplate/source/stylesheets/layout/_navbar.css.scss */
+    /* line 58, /Users/raphaelbiondi/code/rafiki972/frontend-advanced-boilerplate/source/stylesheets/layout/_navbar.css.scss */
     .navbar-wagon-link:hover {
       color: #da552f;
       text-decoration: none; }
-  /* line 56, /Users/raphaelbiondi/code/rafiki972/fullstack-challenges/04-Front-End/03-Frontend-Advanced/01-Content-migration/frontend-advanced-boilerplate/source/stylesheets/layout/_navbar.css.scss */
+  /* line 63, /Users/raphaelbiondi/code/rafiki972/frontend-advanced-boilerplate/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon-button {
     padding: 0 20px;
     border-radius: 20em;
@@ -9193,17 +9199,17 @@ button.close {
     color: white;
     font-size: 14px;
     border: 2px solid #D23333; }
-    /* line 65, /Users/raphaelbiondi/code/rafiki972/fullstack-challenges/04-Front-End/03-Frontend-Advanced/01-Content-migration/frontend-advanced-boilerplate/source/stylesheets/layout/_navbar.css.scss */
+    /* line 72, /Users/raphaelbiondi/code/rafiki972/frontend-advanced-boilerplate/source/stylesheets/layout/_navbar.css.scss */
     .navbar-wagon-button:hover {
       color: white;
       background: #D23333;
       border-color: #ac2626; }
-  /* line 71, /Users/raphaelbiondi/code/rafiki972/fullstack-challenges/04-Front-End/03-Frontend-Advanced/01-Content-migration/frontend-advanced-boilerplate/source/stylesheets/layout/_navbar.css.scss */
+  /* line 78, /Users/raphaelbiondi/code/rafiki972/frontend-advanced-boilerplate/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon-dropdown-menu {
     margin-top: 15px;
     box-shadow: 1px 1px 4px #E6E6E6;
     border-color: #E6E6E6; }
-    /* line 75, /Users/raphaelbiondi/code/rafiki972/fullstack-challenges/04-Front-End/03-Frontend-Advanced/01-Content-migration/frontend-advanced-boilerplate/source/stylesheets/layout/_navbar.css.scss */
+    /* line 82, /Users/raphaelbiondi/code/rafiki972/frontend-advanced-boilerplate/source/stylesheets/layout/_navbar.css.scss */
     .navbar-wagon-dropdown-menu li > a {
       transition: color 0.3s ease;
       font-weight: lighter !important;
@@ -9211,11 +9217,11 @@ button.close {
       font-size: 15px !important;
       line-height: 22px !important;
       padding: 10px 20px; }
-      /* line 82, /Users/raphaelbiondi/code/rafiki972/fullstack-challenges/04-Front-End/03-Frontend-Advanced/01-Content-migration/frontend-advanced-boilerplate/source/stylesheets/layout/_navbar.css.scss */
+      /* line 89, /Users/raphaelbiondi/code/rafiki972/frontend-advanced-boilerplate/source/stylesheets/layout/_navbar.css.scss */
       .navbar-wagon-dropdown-menu li > a:hover {
         background: transparent !important;
         color: black !important; }
-    /* line 87, /Users/raphaelbiondi/code/rafiki972/fullstack-challenges/04-Front-End/03-Frontend-Advanced/01-Content-migration/frontend-advanced-boilerplate/source/stylesheets/layout/_navbar.css.scss */
+    /* line 94, /Users/raphaelbiondi/code/rafiki972/frontend-advanced-boilerplate/source/stylesheets/layout/_navbar.css.scss */
     .navbar-wagon-dropdown-menu:before {
       content: ' ';
       height: 20px;
@@ -9233,52 +9239,52 @@ button.close {
  * These are examples of utilities classes
  * Feel free to change them and create your own
  * ------------------------------------- */
-/* line 8, /Users/raphaelbiondi/code/rafiki972/fullstack-challenges/04-Front-End/03-Frontend-Advanced/01-Content-migration/frontend-advanced-boilerplate/source/stylesheets/layout/_utilities.css.scss */
+/* line 8, /Users/raphaelbiondi/code/rafiki972/frontend-advanced-boilerplate/source/stylesheets/layout/_utilities.css.scss */
 .padded {
   padding-top: 5em;
   padding-bottom: 5em; }
 
-/* line 14, /Users/raphaelbiondi/code/rafiki972/fullstack-challenges/04-Front-End/03-Frontend-Advanced/01-Content-migration/frontend-advanced-boilerplate/source/stylesheets/layout/_utilities.css.scss */
+/* line 14, /Users/raphaelbiondi/code/rafiki972/frontend-advanced-boilerplate/source/stylesheets/layout/_utilities.css.scss */
 .bg-text {
   background: #4a4a4a; }
 
-/* line 17, /Users/raphaelbiondi/code/rafiki972/fullstack-challenges/04-Front-End/03-Frontend-Advanced/01-Content-migration/frontend-advanced-boilerplate/source/stylesheets/layout/_utilities.css.scss */
+/* line 17, /Users/raphaelbiondi/code/rafiki972/frontend-advanced-boilerplate/source/stylesheets/layout/_utilities.css.scss */
 .bg-email {
   background: #aeaeae; }
 
-/* line 20, /Users/raphaelbiondi/code/rafiki972/fullstack-challenges/04-Front-End/03-Frontend-Advanced/01-Content-migration/frontend-advanced-boilerplate/source/stylesheets/layout/_utilities.css.scss */
+/* line 20, /Users/raphaelbiondi/code/rafiki972/frontend-advanced-boilerplate/source/stylesheets/layout/_utilities.css.scss */
 .bg-twitter {
   background: #00a3e1; }
 
-/* line 23, /Users/raphaelbiondi/code/rafiki972/fullstack-challenges/04-Front-End/03-Frontend-Advanced/01-Content-migration/frontend-advanced-boilerplate/source/stylesheets/layout/_utilities.css.scss */
+/* line 23, /Users/raphaelbiondi/code/rafiki972/frontend-advanced-boilerplate/source/stylesheets/layout/_utilities.css.scss */
 .bg-facebook {
   background: #3b5998; }
 
-/* line 1, /Users/raphaelbiondi/code/rafiki972/fullstack-challenges/04-Front-End/03-Frontend-Advanced/01-Content-migration/frontend-advanced-boilerplate/source/stylesheets/components/_avatar.scss */
+/* line 1, /Users/raphaelbiondi/code/rafiki972/frontend-advanced-boilerplate/source/stylesheets/components/_avatar.scss */
 .avatar {
   width: 30px;
   border-radius: 50%; }
-  /* line 4, /Users/raphaelbiondi/code/rafiki972/fullstack-challenges/04-Front-End/03-Frontend-Advanced/01-Content-migration/frontend-advanced-boilerplate/source/stylesheets/components/_avatar.scss */
+  /* line 4, /Users/raphaelbiondi/code/rafiki972/frontend-advanced-boilerplate/source/stylesheets/components/_avatar.scss */
   .avatar-bordered {
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
     border: white 1px solid; }
-  /* line 8, /Users/raphaelbiondi/code/rafiki972/fullstack-challenges/04-Front-End/03-Frontend-Advanced/01-Content-migration/frontend-advanced-boilerplate/source/stylesheets/components/_avatar.scss */
+  /* line 8, /Users/raphaelbiondi/code/rafiki972/frontend-advanced-boilerplate/source/stylesheets/components/_avatar.scss */
   .avatar-large {
     width: 50px; }
 
-/* line 1, /Users/raphaelbiondi/code/rafiki972/fullstack-challenges/04-Front-End/03-Frontend-Advanced/01-Content-migration/frontend-advanced-boilerplate/source/stylesheets/components/_badge.scss */
+/* line 1, /Users/raphaelbiondi/code/rafiki972/frontend-advanced-boilerplate/source/stylesheets/components/_badge.scss */
 .icon-badge-container {
   position: relative;
   font-size: 20px;
   color: grey; }
 
-/* line 6, /Users/raphaelbiondi/code/rafiki972/fullstack-challenges/04-Front-End/03-Frontend-Advanced/01-Content-migration/frontend-advanced-boilerplate/source/stylesheets/components/_badge.scss */
+/* line 6, /Users/raphaelbiondi/code/rafiki972/frontend-advanced-boilerplate/source/stylesheets/components/_badge.scss */
 .user-badge-container {
   position: relative;
   width: 30px;
   margin: 0 auto; }
 
-/* line 11, /Users/raphaelbiondi/code/rafiki972/fullstack-challenges/04-Front-End/03-Frontend-Advanced/01-Content-migration/frontend-advanced-boilerplate/source/stylesheets/components/_badge.scss */
+/* line 11, /Users/raphaelbiondi/code/rafiki972/frontend-advanced-boilerplate/source/stylesheets/components/_badge.scss */
 .icon-badge, .user-badge {
   position: absolute;
   top: -5px;
@@ -9290,47 +9296,47 @@ button.close {
   text-align: center;
   border-radius: 50%;
   background: grey; }
-  /* line 22, /Users/raphaelbiondi/code/rafiki972/fullstack-challenges/04-Front-End/03-Frontend-Advanced/01-Content-migration/frontend-advanced-boilerplate/source/stylesheets/components/_badge.scss */
+  /* line 22, /Users/raphaelbiondi/code/rafiki972/frontend-advanced-boilerplate/source/stylesheets/components/_badge.scss */
   .icon-badge-red, .user-badge-red {
     background: #EE5F5B; }
-  /* line 25, /Users/raphaelbiondi/code/rafiki972/fullstack-challenges/04-Front-End/03-Frontend-Advanced/01-Content-migration/frontend-advanced-boilerplate/source/stylesheets/components/_badge.scss */
+  /* line 25, /Users/raphaelbiondi/code/rafiki972/frontend-advanced-boilerplate/source/stylesheets/components/_badge.scss */
   .icon-badge-green, .user-badge-green {
     background: #32B796; }
-  /* line 28, /Users/raphaelbiondi/code/rafiki972/fullstack-challenges/04-Front-End/03-Frontend-Advanced/01-Content-migration/frontend-advanced-boilerplate/source/stylesheets/components/_badge.scss */
+  /* line 28, /Users/raphaelbiondi/code/rafiki972/frontend-advanced-boilerplate/source/stylesheets/components/_badge.scss */
   .icon-badge-blue, .user-badge-blue {
     background: #469AE0; }
-  /* line 31, /Users/raphaelbiondi/code/rafiki972/fullstack-challenges/04-Front-End/03-Frontend-Advanced/01-Content-migration/frontend-advanced-boilerplate/source/stylesheets/components/_badge.scss */
+  /* line 31, /Users/raphaelbiondi/code/rafiki972/frontend-advanced-boilerplate/source/stylesheets/components/_badge.scss */
   .icon-badge-black, .user-badge-black {
     background: black; }
-  /* line 34, /Users/raphaelbiondi/code/rafiki972/fullstack-challenges/04-Front-End/03-Frontend-Advanced/01-Content-migration/frontend-advanced-boilerplate/source/stylesheets/components/_badge.scss */
+  /* line 34, /Users/raphaelbiondi/code/rafiki972/frontend-advanced-boilerplate/source/stylesheets/components/_badge.scss */
   .icon-badge-bordered, .user-badge-bordered {
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
     border: white 1px solid; }
 
-/* line 7, /Users/raphaelbiondi/code/rafiki972/fullstack-challenges/04-Front-End/03-Frontend-Advanced/01-Content-migration/frontend-advanced-boilerplate/source/stylesheets/pages/_home.scss */
+/* line 7, /Users/raphaelbiondi/code/rafiki972/frontend-advanced-boilerplate/source/stylesheets/pages/_home.scss */
 .banner {
   background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgba(255, 255, 255, 0.5)), url(http://wowslider.com/sliders/demo-5/data/images/saarschleife.jpg);
   background-repeat: no-repeat;
   background-size: cover; }
 
-/* line 13, /Users/raphaelbiondi/code/rafiki972/fullstack-challenges/04-Front-End/03-Frontend-Advanced/01-Content-migration/frontend-advanced-boilerplate/source/stylesheets/pages/_home.scss */
+/* line 13, /Users/raphaelbiondi/code/rafiki972/frontend-advanced-boilerplate/source/stylesheets/pages/_home.scss */
 .wrapper {
   text-align: center;
   padding-top: 50px;
   padding-bottom: 50px; }
-  /* line 17, /Users/raphaelbiondi/code/rafiki972/fullstack-challenges/04-Front-End/03-Frontend-Advanced/01-Content-migration/frontend-advanced-boilerplate/source/stylesheets/pages/_home.scss */
+  /* line 17, /Users/raphaelbiondi/code/rafiki972/frontend-advanced-boilerplate/source/stylesheets/pages/_home.scss */
   .wrapper h1 {
     font-size: 95px;
     text-transform: capitalize;
     font-weight: 200;
     color: cornsilk; }
-  /* line 23, /Users/raphaelbiondi/code/rafiki972/fullstack-challenges/04-Front-End/03-Frontend-Advanced/01-Content-migration/frontend-advanced-boilerplate/source/stylesheets/pages/_home.scss */
+  /* line 23, /Users/raphaelbiondi/code/rafiki972/frontend-advanced-boilerplate/source/stylesheets/pages/_home.scss */
   .wrapper p {
     padding-bottom: 20px;
     font-weight: 500;
     font-size: 22px;
     color: cornsilk; }
-  /* line 29, /Users/raphaelbiondi/code/rafiki972/fullstack-challenges/04-Front-End/03-Frontend-Advanced/01-Content-migration/frontend-advanced-boilerplate/source/stylesheets/pages/_home.scss */
+  /* line 29, /Users/raphaelbiondi/code/rafiki972/frontend-advanced-boilerplate/source/stylesheets/pages/_home.scss */
   .wrapper a {
     font-size: 35px;
     text-transform: uppercase;
@@ -9340,32 +9346,82 @@ button.close {
     border: 3px solid white;
     padding: 5px 10px;
     border-radius: 3px; }
-    /* line 38, /Users/raphaelbiondi/code/rafiki972/fullstack-challenges/04-Front-End/03-Frontend-Advanced/01-Content-migration/frontend-advanced-boilerplate/source/stylesheets/pages/_home.scss */
+    /* line 38, /Users/raphaelbiondi/code/rafiki972/frontend-advanced-boilerplate/source/stylesheets/pages/_home.scss */
     .wrapper a:hover {
       border: 6px solid white;
       text-decoration: none; }
 
-/* line 46, /Users/raphaelbiondi/code/rafiki972/fullstack-challenges/04-Front-End/03-Frontend-Advanced/01-Content-migration/frontend-advanced-boilerplate/source/stylesheets/pages/_home.scss */
+/* line 46, /Users/raphaelbiondi/code/rafiki972/frontend-advanced-boilerplate/source/stylesheets/pages/_home.scss */
 .texte-center {
   padding-top: 50px;
   text-align: center; }
 
-/* line 51, /Users/raphaelbiondi/code/rafiki972/fullstack-challenges/04-Front-End/03-Frontend-Advanced/01-Content-migration/frontend-advanced-boilerplate/source/stylesheets/pages/_home.scss */
+/* line 51, /Users/raphaelbiondi/code/rafiki972/frontend-advanced-boilerplate/source/stylesheets/pages/_home.scss */
 .features {
   padding: 30px; }
 
-/* line 55, /Users/raphaelbiondi/code/rafiki972/fullstack-challenges/04-Front-End/03-Frontend-Advanced/01-Content-migration/frontend-advanced-boilerplate/source/stylesheets/pages/_home.scss */
+/* line 55, /Users/raphaelbiondi/code/rafiki972/frontend-advanced-boilerplate/source/stylesheets/pages/_home.scss */
 .feature img {
   width: 65px;
   height: 65px;
   display: block;
   margin: 0 auto; }
-/* line 61, /Users/raphaelbiondi/code/rafiki972/fullstack-challenges/04-Front-End/03-Frontend-Advanced/01-Content-migration/frontend-advanced-boilerplate/source/stylesheets/pages/_home.scss */
+/* line 61, /Users/raphaelbiondi/code/rafiki972/frontend-advanced-boilerplate/source/stylesheets/pages/_home.scss */
 .feature h4 {
   text-align: center; }
-/* line 64, /Users/raphaelbiondi/code/rafiki972/fullstack-challenges/04-Front-End/03-Frontend-Advanced/01-Content-migration/frontend-advanced-boilerplate/source/stylesheets/pages/_home.scss */
+/* line 64, /Users/raphaelbiondi/code/rafiki972/frontend-advanced-boilerplate/source/stylesheets/pages/_home.scss */
 .feature p {
   text-align: justify; }
+
+/* line 69, /Users/raphaelbiondi/code/rafiki972/frontend-advanced-boilerplate/source/stylesheets/pages/_home.scss */
+.newsletter {
+  text-align: center;
+  margin-bottom: 60px;
+  height: 100%; }
+
+/* line 75, /Users/raphaelbiondi/code/rafiki972/frontend-advanced-boilerplate/source/stylesheets/pages/_home.scss */
+.footer {
+  background: dimgrey;
+  padding-top: 30px;
+  font-size: 35px; }
+  /* line 81, /Users/raphaelbiondi/code/rafiki972/frontend-advanced-boilerplate/source/stylesheets/pages/_home.scss */
+  .footer a {
+    color: antiquewhite; }
+  /* line 85, /Users/raphaelbiondi/code/rafiki972/frontend-advanced-boilerplate/source/stylesheets/pages/_home.scss */
+  .footer p {
+    text-align: justify;
+    color: antiquewhite;
+    font-size: large;
+    padding: 12px;
+    margin-left: 200px; }
+
+/* line 94, /Users/raphaelbiondi/code/rafiki972/frontend-advanced-boilerplate/source/stylesheets/pages/_home.scss */
+.slideDown {
+  animation-name: slideDown;
+  -webkit-animation-name: slideDown;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  animation-timing-function: ease;
+  -webkit-animation-timing-function: ease;
+  visibility: visible !important; }
+
+@keyframes slideDown {
+  0% {
+    transform: translateY(-100%); }
+  50% {
+    transform: translateY(8%); }
+  65% {
+    transform: translateY(-4%); }
+  80% {
+    transform: translateY(4%); }
+  95% {
+    transform: translateY(-2%); }
+  100% {
+    transform: translateY(0%); } }
+/* line 149, /Users/raphaelbiondi/code/rafiki972/frontend-advanced-boilerplate/source/stylesheets/pages/_home.scss */
+.maping {
+  width: 100%;
+  height: 200px; }
 
 /*
 ==============================================
@@ -9385,7 +9441,7 @@ justin@justinaguilar.com
 slideDown
 ==============================================
 */
-/* line 23, /Users/raphaelbiondi/code/rafiki972/fullstack-challenges/04-Front-End/03-Frontend-Advanced/01-Content-migration/frontend-advanced-boilerplate/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 23, /Users/raphaelbiondi/code/rafiki972/frontend-advanced-boilerplate/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .slideDown {
   animation-name: slideDown;
   -webkit-animation-name: slideDown;
@@ -9413,7 +9469,7 @@ slideDown
 slideUp
 ==============================================
 */
-/* line 85, /Users/raphaelbiondi/code/rafiki972/fullstack-challenges/04-Front-End/03-Frontend-Advanced/01-Content-migration/frontend-advanced-boilerplate/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 85, /Users/raphaelbiondi/code/rafiki972/frontend-advanced-boilerplate/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .slideUp {
   animation-name: slideUp;
   -webkit-animation-name: slideUp;
@@ -9441,7 +9497,7 @@ slideUp
 slideLeft
 ==============================================
 */
-/* line 147, /Users/raphaelbiondi/code/rafiki972/fullstack-challenges/04-Front-End/03-Frontend-Advanced/01-Content-migration/frontend-advanced-boilerplate/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 147, /Users/raphaelbiondi/code/rafiki972/frontend-advanced-boilerplate/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .slideLeft {
   animation-name: slideLeft;
   -webkit-animation-name: slideLeft;
@@ -9469,7 +9525,7 @@ slideLeft
 slideRight
 ==============================================
 */
-/* line 209, /Users/raphaelbiondi/code/rafiki972/fullstack-challenges/04-Front-End/03-Frontend-Advanced/01-Content-migration/frontend-advanced-boilerplate/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 209, /Users/raphaelbiondi/code/rafiki972/frontend-advanced-boilerplate/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .slideRight {
   animation-name: slideRight;
   -webkit-animation-name: slideRight;
@@ -9497,7 +9553,7 @@ slideRight
 slideExpandUp
 ==============================================
 */
-/* line 271, /Users/raphaelbiondi/code/rafiki972/fullstack-challenges/04-Front-End/03-Frontend-Advanced/01-Content-migration/frontend-advanced-boilerplate/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 271, /Users/raphaelbiondi/code/rafiki972/frontend-advanced-boilerplate/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .slideExpandUp {
   animation-name: slideExpandUp;
   -webkit-animation-name: slideExpandUp;
@@ -9531,7 +9587,7 @@ slideExpandUp
 expandUp
 ==============================================
 */
-/* line 351, /Users/raphaelbiondi/code/rafiki972/fullstack-challenges/04-Front-End/03-Frontend-Advanced/01-Content-migration/frontend-advanced-boilerplate/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 351, /Users/raphaelbiondi/code/rafiki972/frontend-advanced-boilerplate/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .expandUp {
   animation-name: expandUp;
   -webkit-animation-name: expandUp;
@@ -9555,7 +9611,7 @@ expandUp
 fadeIn
 ==============================================
 */
-/* line 400, /Users/raphaelbiondi/code/rafiki972/fullstack-challenges/04-Front-End/03-Frontend-Advanced/01-Content-migration/frontend-advanced-boilerplate/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 400, /Users/raphaelbiondi/code/rafiki972/frontend-advanced-boilerplate/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .fadeIn {
   animation-name: fadeIn;
   -webkit-animation-name: fadeIn;
@@ -9582,7 +9638,7 @@ fadeIn
 expandOpen
 ==============================================
 */
-/* line 456, /Users/raphaelbiondi/code/rafiki972/fullstack-challenges/04-Front-End/03-Frontend-Advanced/01-Content-migration/frontend-advanced-boilerplate/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 456, /Users/raphaelbiondi/code/rafiki972/frontend-advanced-boilerplate/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .expandOpen {
   animation-name: expandOpen;
   -webkit-animation-name: expandOpen;
@@ -9608,7 +9664,7 @@ expandOpen
 bigEntrance
 ==============================================
 */
-/* line 512, /Users/raphaelbiondi/code/rafiki972/fullstack-challenges/04-Front-End/03-Frontend-Advanced/01-Content-migration/frontend-advanced-boilerplate/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 512, /Users/raphaelbiondi/code/rafiki972/frontend-advanced-boilerplate/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .bigEntrance {
   animation-name: bigEntrance;
   -webkit-animation-name: bigEntrance;
@@ -9645,7 +9701,7 @@ bigEntrance
 hatch
 ==============================================
 */
-/* line 593, /Users/raphaelbiondi/code/rafiki972/fullstack-challenges/04-Front-End/03-Frontend-Advanced/01-Content-migration/frontend-advanced-boilerplate/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 593, /Users/raphaelbiondi/code/rafiki972/frontend-advanced-boilerplate/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .hatch {
   animation-name: hatch;
   -webkit-animation-name: hatch;
@@ -9678,7 +9734,7 @@ hatch
 bounce
 ==============================================
 */
-/* line 666, /Users/raphaelbiondi/code/rafiki972/fullstack-challenges/04-Front-End/03-Frontend-Advanced/01-Content-migration/frontend-advanced-boilerplate/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 666, /Users/raphaelbiondi/code/rafiki972/frontend-advanced-boilerplate/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .bounce {
   animation-name: bounce;
   -webkit-animation-name: bounce;
@@ -9708,7 +9764,7 @@ bounce
 pulse
 ==============================================
 */
-/* line 730, /Users/raphaelbiondi/code/rafiki972/fullstack-challenges/04-Front-End/03-Frontend-Advanced/01-Content-migration/frontend-advanced-boilerplate/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 730, /Users/raphaelbiondi/code/rafiki972/frontend-advanced-boilerplate/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .pulse {
   animation-name: pulse;
   -webkit-animation-name: pulse;
@@ -9732,7 +9788,7 @@ pulse
 floating
 ==============================================
 */
-/* line 777, /Users/raphaelbiondi/code/rafiki972/fullstack-challenges/04-Front-End/03-Frontend-Advanced/01-Content-migration/frontend-advanced-boilerplate/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 777, /Users/raphaelbiondi/code/rafiki972/frontend-advanced-boilerplate/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .floating {
   animation-name: floating;
   -webkit-animation-name: floating;
@@ -9753,7 +9809,7 @@ floating
 tossing
 ==============================================
 */
-/* line 818, /Users/raphaelbiondi/code/rafiki972/fullstack-challenges/04-Front-End/03-Frontend-Advanced/01-Content-migration/frontend-advanced-boilerplate/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 818, /Users/raphaelbiondi/code/rafiki972/frontend-advanced-boilerplate/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .tossing {
   animation-name: tossing;
   -webkit-animation-name: tossing;
@@ -9774,7 +9830,7 @@ tossing
 pullUp
 ==============================================
 */
-/* line 859, /Users/raphaelbiondi/code/rafiki972/fullstack-challenges/04-Front-End/03-Frontend-Advanced/01-Content-migration/frontend-advanced-boilerplate/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 859, /Users/raphaelbiondi/code/rafiki972/frontend-advanced-boilerplate/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .pullUp {
   animation-name: pullUp;
   -webkit-animation-name: pullUp;
@@ -9806,7 +9862,7 @@ pullUp
 pullDown
 ==============================================
 */
-/* line 928, /Users/raphaelbiondi/code/rafiki972/fullstack-challenges/04-Front-End/03-Frontend-Advanced/01-Content-migration/frontend-advanced-boilerplate/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 928, /Users/raphaelbiondi/code/rafiki972/frontend-advanced-boilerplate/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .pullDown {
   animation-name: pullDown;
   -webkit-animation-name: pullDown;
@@ -9838,7 +9894,7 @@ pullDown
 stretchLeft
 ==============================================
 */
-/* line 997, /Users/raphaelbiondi/code/rafiki972/fullstack-challenges/04-Front-End/03-Frontend-Advanced/01-Content-migration/frontend-advanced-boilerplate/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 997, /Users/raphaelbiondi/code/rafiki972/frontend-advanced-boilerplate/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .stretchLeft {
   animation-name: stretchLeft;
   -webkit-animation-name: stretchLeft;
@@ -9870,7 +9926,7 @@ stretchLeft
 stretchRight
 ==============================================
 */
-/* line 1066, /Users/raphaelbiondi/code/rafiki972/fullstack-challenges/04-Front-End/03-Frontend-Advanced/01-Content-migration/frontend-advanced-boilerplate/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 1066, /Users/raphaelbiondi/code/rafiki972/frontend-advanced-boilerplate/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .stretchRight {
   animation-name: stretchRight;
   -webkit-animation-name: stretchRight;

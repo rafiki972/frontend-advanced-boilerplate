@@ -29,7 +29,7 @@
 
   <body class="index">
 
-    <nav class="navbar-wagon">
+    <nav class="navbar-wagon navbar-wagon-fixed">
   <div class="container navbar-wagon-container">
 
 <a href="/">      <img class="navbar-wagon-logo" src="images/lewagon.png" />
@@ -46,6 +46,10 @@
     </div>
 
     <a href="" class="navbar-wagon-item navbar-wagon-link">Contact</a>
+
+    <a href="#map" class="navbar-wagon-item navbar-wagon-link">find us</a>
+
+
 
     <a href="" class="navbar-wagon-item navbar-wagon-link">
       <div class="icon-badge-container">
@@ -122,20 +126,49 @@
   </div>
 </div>
 
-
-<div class="texte-center">
-  <h3>GET NEWS FROM US
-  </h3>
-  <p>
-    Leave us your mail and get stylus news
-  </p>
+<div class="newsletter">
+ <h2>Get news from us</h2>
+ <p>Leave us your mail and get stylus news</p>
+ <br>
+ <form action='/' class='form-inline'>
+   <input type='email' class='form-control' placeholder='plob@gmail.com'>
+   <input type="submit" value="Subscribe" class="btn btn-primary">
+   <br>
+</form>
 </div>
 
-<form class="form-inline">
-  <imput type="email" placeholder=""
+ <br>
+ <br>
+<div id="map" class='maping' ></div>
+
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+
+<script type="text/javascript">
+var myLatlng = new google.maps.LatLng(48.852937,2.364178);
+
+var myOptions = {
+ zoom: 16,
+ center: myLatlng,
+ scrollwheel: false,
+ mapTypeId: google.maps.MapTypeId.ROADMAP,
+ styles: [] // TODO: replace [] by array from https://snazzymaps.com/
+};
+
+var map = new google.maps.Map(document.getElementById('map'), myOptions);
+var marker = new google.maps.Marker({
+ position: myLatlng,
+ map: map,
+ title: "You are here!"
+});
+</script>
+
+<!-- Footer -->
+
+<!-- Including Bootstrap JS (with its jQuery dependency) so that dynamic components work -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 
 
-</form>
 
 
 
@@ -144,6 +177,23 @@
 
 
 
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <ul class="list-footer-inline">
+              <a href="#"><i class="fa fa-youtube"></i></a>
+              <a href="#"><i class="fa fa-instagram"></i></a>
+              <a href="#"><i class="fa fa-facebook"></i></a>
+              <a href="#"><i class="fa fa-twitter"></i></a>
+            </ul>
+          </div>
+          <div class="col-sm-6">
+            <p>this is a fictive product </p>
+          </div>
+        </div>
+      </div>
+    </div>
 
   </body>
 </html>
